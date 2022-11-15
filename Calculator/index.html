@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Calculator by Himanshu</title>
+</head>
+<body>
+    <div class="maincalculator">
+        <div class="heading">
+            <h1>Calculator</h1>
+        </div>
+        <div class="result">
+            <input class="input" id="inputext" type="text" placeholder="0"/>
+        </div>
+        <div class="mainbutton">
+            <button onclick="calculate(1)" class="buttongroup" value="1">1</button>
+            <button onclick="calculate(2)" class="buttongroup" value="2">2</button>
+            <button onclick="calculate(3)" class="buttongroup" value="3">3</button>
+            <button onclick="calculate('+')" class="buttongroup" id="uniq">+</button>
+            <button onclick="calculate(4)" class="buttongroup" value="4">4</button>
+            <button onclick="calculate(5)" class="buttongroup" value="5">5</button>
+            <button onclick="calculate(6)" class="buttongroup" value="6">6</button>
+            <button onclick="calculate('-')" class="buttongroup" id="uniq">-</button>
+            <button onclick="calculate(7)" class="buttongroup" value="7">7</button>
+            <button onclick="calculate(8)" class="buttongroup" value="8">8</button>
+            <button onclick="calculate(9)" class="buttongroup" value="9">9</button>
+            <button onclick="calculate('*')" class="buttongroup" id="uniq">*</button>
+            <button onclick="calculate('.')" class="buttongroup" value=".">.</button>
+            <button onclick="calculate(0)" class="buttongroup" value="0">0</button>
+            <button onclick="calculate(00)" class="buttongroup" value="00">00</button>
+            <button onclick="calculate('/')" class="buttongroup" id="uniq">/</button>
+            <button onclick="clr()" class="buttongroup" id="uniq">C</button>
+            <button onclick="calculate('%')" class="buttongroup" id="uniq">%</button>
+            <button onclick="del()" class="buttongroup" id="uniq">DEL</button>
+            <button onclick="Result()" class="buttongroup" id="uniq">=</button>
+            
+        </div>
+        <p>Created by <a href="https://www.instagram.com/himanshu_0072/" target="_blank">@himanshu_0072</a></p>
+    </div>
+    <script src="/myScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    background-color: lightblue;
+  }
+.maincalculator{
+    background-color: black;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+.heading h1{
+    color: white;
+    padding-top: 3%;
+    text-align: center;
+}
+.input{
+    background-color: rgb(119, 126, 131);
+    font-size: 26px;
+    margin-left: 2%;
+    border-radius: 5px;
+    width:95% ;
+    height: 100px;
+    text-align: end;
+}
+.mainbutton {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding: 20px;
+}
+.buttongroup {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#uniq {
+    background-color: rgb(119, 126, 131);
+}
+
+.maincalculator p{
+    color: white;
+    padding-bottom: 2%;
+    text-align: end;
+    padding-right: 4%;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 14px;
+    
+}
+.maincalculator a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 850px) {
+    body {
+      background-color: lightblue;
+    }
+    .maincalculator{
+        background-color: black;
+        box-shadow: 10px 10px 8px #888888;
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
+
+    }
+    .heading h1{
+        color: white;
+        padding-top: 3%;
+        text-align: center;
+    }
+    .input{
+        background-color: rgb(119, 126, 131);
+        font-size: 26px;
+        margin-left: 4%;
+        border-radius: 5px;
+        width: 92%;
+        height: 80px;
+        text-align: end;
+
+    }
+    .mainbutton {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        background-color: black;
+        padding: 4%;
+    }
+    .buttongroup {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 15px;
+        font-size: 24px;
+        text-align: center;
+    }
+    #uniq {
+        background-color: rgb(119, 126, 131);
+    }
+    .maincalculator p{
+        color: white;
+        padding-bottom: 2%;
+        text-align: end;
+        padding-right: 4%;
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 10px;
+        
+    }
+    .maincalculator a{
+        text-decoration: none;
+        color: white;
+    }
+  }
